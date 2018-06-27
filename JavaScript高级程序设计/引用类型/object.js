@@ -1,3 +1,10 @@
+/**
+ * Object
+ * Array
+ * Date
+ * RegExp
+ * Function
+ */
 //Object类型
 {
     var person = new Object()
