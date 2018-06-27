@@ -2,8 +2,10 @@
  * 对象定义
  * 理解对象
  * 属性类型
+ *      Object.defineProperty()方法，修改属性默认特性，接收三个参数：1.属性所在对象 2.属性名字 3.描述符对象
  * 定义多个属性
  * 读取属性的特性
+ *      Object.getOwnPropertyDescriptor()方法，获取原型属性的描述符，接收参数：1.属性所在对象 2.要读取其描述符的属性名称
  * 
  */
 //对象定义：无序属性的集合，其属性可以包含基本值、对象或者函数，每一个对象都是基于一个引用类型创建的
@@ -97,7 +99,7 @@
 }
 
 //读取属性的特性
-//Object.getOwnPropertyDescriptor()方法，接收参数：1.属性所在对象 2.要读取其描述符的属性名称
+//Object.getOwnPropertyDescriptor()方法，获取原型属性的描述符，接收参数：1.属性所在对象 2.要读取其描述符的属性名称
 {
     var book = {}
     Object.defineProperties(book,{
