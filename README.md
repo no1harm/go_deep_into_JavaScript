@@ -19,7 +19,8 @@ PS：为了方便学习，文件命名大部分采用了中文命名，这种方
 
 - 学习ES6
     + 以阮一峰老师的[《ECMAScript6入门》](http://es6.ruanyifeng.com/)为主
-        - [类](./ES6学习/类)
+        - [ES6学习笔记](./ES6学习/ES6学习笔记.md)
+        - [关于异步编程解决方案(async/await)](./ES6学习/异步编程.js)
 
 - 学习Vue:
     + 以[Vue官方文档](https://cn.vuejs.org/index.html)为主
